@@ -3,9 +3,9 @@ $(document).ready(function () {
     e.preventDefault()
   $('.navbar-burger').toggleClass('burger-open');
  });
-
  	$('.slider').slick({
    arrows: false,
    autoplay: true
    });
+
 });
